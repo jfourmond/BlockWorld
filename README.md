@@ -19,21 +19,21 @@ Le but du travail pratique est de modéliser le monde des blocs : un jeu qui con
 
 ## Etat Initial
 
-| Colonne 1 	| Colonne 2 	| Colonne 4 	|
-|-----------	|-----------	|-----------	|
-| a         	|           	|           	|
-| c         	|           	|           	|
-| b         	|           	|           	|
-| d         	|           	|           	|
+| 1 | 2 | 3 |
+|---|---|---|
+| a |   |   |
+| c |   |   |
+| b |   |   |
+| d |   |   |
 
 ## Etat Final
 
-| Colonne 1 	| Colonne 2 	| Colonne 4 	|
-|-----------	|-----------	|-----------	|
-| a         	|           	|           	|
-| b         	|           	|           	|
-| c         	|           	|           	|
-| d         	|           	|           	|
+| 1 | 2 | 3 |
+|---|---|---|
+| a |   |   |
+| b |   |   |
+| c |   |   |
+| d |   |   |
 
 L'emplacement final de la pile n'est pas arbitraire.
 
