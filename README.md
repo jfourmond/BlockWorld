@@ -44,8 +44,8 @@ Les **agents** ont connaissance de leurs buts et perçoivent plusieurs entités 
 - les emplacements libres
 
 Et un comportement comportant différentes actions :
-Mouvement : SI (NON satisfait ET libre) ALORS Mouvement();
-Pousse : SI (NON satisfait ET NON free) ALORS Pousse();
+- Mouvement : SI (NON satisfait ET libre) ALORS Mouvement();
+- Pousse : SI (NON satisfait ET NON free) ALORS Pousse();
 
 ## Perception
 Les **perceptions** s'effectuent à partir de demande à l'environnement.
