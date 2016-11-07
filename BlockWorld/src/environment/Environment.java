@@ -50,7 +50,6 @@ public class Environment extends Thread {
 			world[1][0] = true;
 		agents.put(new Agent('a', 'b', this), new Position(0, 0));
 			world[0][0] = true;
-		System.out.println(this);
 	}
 	
 	private void update() {
@@ -210,8 +209,10 @@ public class Environment extends Thread {
 		int i=0;
 		Agent choice;
 		Set<Agent> agentSet = agents.keySet();
-		// MISE A JOUR DES ETATS INITIALS
+		// MISE A JOUR DES ETATS INITIAUX
 		updateStates();
+		System.out.println("Etat initial : ");
+		System.out.println(this);
 		//	RESOLUTION
 		while(!areAllAgentsSatisfied()) {
 			System.out.println("Etape : " + i++);
