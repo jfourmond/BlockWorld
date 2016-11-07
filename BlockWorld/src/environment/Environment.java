@@ -196,6 +196,9 @@ public class Environment extends Thread {
 		return true;
 	}
 	
+	/**
+	 * Mise à jour de la perception des agents
+	 */
 	private void updateStates() {
 		Set<Agent> agentSet = agents.keySet();
 		for(Agent agent : agentSet)
@@ -230,6 +233,8 @@ public class Environment extends Thread {
 				e.printStackTrace();
 			}
 		}
+		
+		System.out.println("Fin du programme.");
 	}
 	
 	@Override

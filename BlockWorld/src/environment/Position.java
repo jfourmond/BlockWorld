@@ -1,5 +1,9 @@
 package environment;
 
+/**
+ * Classe utilisé pour symboliser une coordonnée
+ * sous la forme d'une paire d'entier
+ */
 public class Position {
 	private int x;
 	private int y;
